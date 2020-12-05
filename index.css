@@ -123,12 +123,12 @@ section {
   position: relative;
   width: 48%;
 }
-.titleTex {
+.titleText {
   color: #191919;
   font-size: 2em;
   font-weight: 300;
 }
-.titleTex span {
+.titleText span {
   color: #ff0157;
   font-weight: 700;
   font-size: 1.5em;
@@ -154,16 +154,16 @@ section {
   align-items: center;
   flex-direction: column;
 }
-/*
+/* 
 !có thể sẽ bỏ phần dưới ⬇
 */
-.menu .content {
+/* .menu .content {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   margin-top: 40px;
-}
+} */
 /*
 !có thể sẽ bỏ phần trên ⬆
-*/
+ */
