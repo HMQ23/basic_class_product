@@ -1,3 +1,3 @@
 # basic_class_product
 
-FASTER!!!!!!!!!!!!!!!!!!!!!!!!
+CODE FASTER!!!!!!!!!!!!!!!!!!!!!!!!
