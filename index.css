@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -154,16 +154,34 @@ section {
   align-items: center;
   flex-direction: column;
 }
-/* 
-!có thể sẽ bỏ phần dưới ⬇
-*/
-/* .menu .content {
+.menu_options {
   display: flex;
   justify-content: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-top: 40px;
-} */
-/*
-!có thể sẽ bỏ phần trên ⬆
- */
+}
+.season {
+  width: 500px;
+  height: 275px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 10000px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#summer {
+  background: url("/images/summer.jpg");
+}
+#spring {
+  background: url("/images/spring.jpg");
+}
+#autumn {
+  background: url("/images/autumn.jpg");
+}
+#winter {
+  background: url("/images/winter.jpg");
+}
