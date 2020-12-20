@@ -1,3 +1,3 @@
 # basic_class_product
 
-CODE FASTER!!!!!!!!!!!!!!!!!!!!!!!!
+50% FINISH
