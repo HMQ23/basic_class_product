@@ -20,11 +20,12 @@
   <body>
     <header>
       <a href="" class="logo">Food<span>.</span></a>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
       <ul class="navigation">
-        <li><a href="#banner">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
       </ul>
     </header>
 
@@ -92,7 +93,7 @@
       <div class="box curved">
         <div class="continents">
           <div id="asia">
-            <div><a>ASIA</a></div>
+            <div><a href="" class="button reverse dark">ASIA</a></div>
           </div>
         </div>
       </div>
@@ -117,6 +118,34 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2 class="contact_titleText"><span>C</span>ontact Us</h2>
+        <p style="color: #fff">Some stupid description</p>
+      </div>
+      <div class="contactForm">
+        <h3>Send Message</h3>
+        <div class="inputBox">
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="Email" />
+        </div>
+        <div class="inputBox">
+          <textarea placeholder="What do you want to tell us ?"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </section>
+
+    <div class="made_by">
+      <p>
+        This website made by <a href="">Minh Quang</a>. All rights reserved®
+      </p>
     </div>
 
     <script src="index.js"></script>
