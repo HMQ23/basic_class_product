@@ -295,7 +295,7 @@ section {
 /*
 * button for sending the contact is in here ⬇ 
 */
-.button {
+.contact_button {
   --primary: #ff0157;
   --primary-dark: #cf0347;
   --primary-darkest: #ac0c41;
@@ -359,8 +359,8 @@ section {
   -webkit-tap-highlight-color: transparent;
 }
 
-.button .left,
-.button .right {
+.contact_button .left,
+.contact_button .right {
   position: absolute;
   left: 0;
   top: 0;
@@ -376,10 +376,10 @@ section {
     translateZ(0);
 }
 
-.button .left:before,
-.button .left:after,
-.button .right:before,
-.button .right:after {
+.contact_button .left:before,
+.contact_button .left:after,
+.contact_button .right:before,
+.contact_button .right:after {
   content: "";
   position: absolute;
   left: 0;
@@ -409,7 +409,7 @@ section {
   );
 }
 
-.button .left:after {
+.contact_button .left:after {
   --x: 0;
   --z-index: 1;
   --background: var(--left-body-background);
@@ -421,7 +421,7 @@ section {
   --third-y: var(--left-body-third-y);
 }
 
-.button .right:before {
+.contact_button .right:before {
   --x: -0.4%;
   --z-index: 2;
   --background: var(--right-wing-background);
@@ -433,7 +433,7 @@ section {
   --third-y: var(--right-wing-third-y);
 }
 
-.button .right:after {
+.contact_button .right:after {
   --x: 0;
   --z-index: 1;
   --background: var(--right-body-background);
@@ -445,14 +445,14 @@ section {
   --third-y: var(--right-body-third-y);
 }
 
-.button span {
+.contact_button span {
   display: block;
   position: relative;
   z-index: 4;
   opacity: var(--text-opacity);
 }
 
-.button span.success {
+.contact_button span.success {
   z-index: 0;
   position: absolute;
   left: 0;

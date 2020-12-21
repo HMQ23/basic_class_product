@@ -10,7 +10,7 @@ function toggleMenu() {
   navigation.classList.toggle("active");
 }
 
-document.querySelectorAll(".button").forEach((button) => {
+document.querySelectorAll(".contact_button").forEach((button) => {
   let getVar = (variable) =>
     getComputedStyle(button).getPropertyValue(variable);
 
